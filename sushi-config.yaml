@@ -112,29 +112,29 @@ pages:
 menu:
   Home: index.html
   Artifacts: artifacts.html
-  URS and SRS: 
+  User and Software Requirements: 
     Methodology: 2.1Methodology.html
     Threat Model And Attacks: 2.2ThreatModelAndAttacks.html
     User Requirements Specification: 2.3UserRequirementsSpecification.html
     Software Requirements Specification: 2.4SoftwareRequirementsSpecification.html
     PETs Requirements: 2.5PETsRequirements.html
-  HUF:
+  Human Interface:
     Methodology: 4.1Methodology.html
     Requirements Overview: 4.2RequirementsOverview.html
     Queries To Be Supported: 4.3QueriesToBeSupported.html
     Implications On Architecture: 4.4ImplicationsOnArchitecture.html
-  IMSD:
+  Image processing & Synthetic data:
     Methodology: 3.1Methodology.html
-    Main Cateagories: 3.2MainCategories.html
-    IMSD Requirements: 3.3IMSDRequirements.html
-  PIL:
+    Main Categories: 3.2MainCategories.html
+    Requirements: 3.3IMSDRequirements.html
+  Pilot Study:
     Rationale: 5.1Rationale.html
     Methodology And Study: 5.2MethodologyAndStudy.html
-    PIL Requirements: 5.3PILRequirements.html
-  STD:
+    Requirements: 5.3PILRequirements.html
+  Standards Contribution:
     Convention And Standards: 6.1ConventionAndStandards.html
     Model And Privacy: 6.2ModelAndPrivacy.html
-    STD Requirements: 6.3STDRequirements.html
+    Requirements: 6.3STDRequirements.html
   Conclusions: 7Conclusions.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
