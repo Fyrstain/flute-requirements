@@ -3,6 +3,7 @@ Parent: Observation
 Id: PR-ProstateVolume
 Title: "Observation: prostate volume"
 Description: "Observation for measuring the volume of the prostate."
+* ^experimental = true
 * code = $sct#1297142007 "Volume of prostate"
 * subject 1.. 
 * bodySite = $sct#41216001 "Prostate"
@@ -13,4 +14,3 @@ Description: "Observation for measuring the volume of the prostate."
 * valueQuantity.unit = "cc"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = #cm3
-

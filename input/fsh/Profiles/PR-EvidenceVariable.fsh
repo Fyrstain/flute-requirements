@@ -3,6 +3,7 @@ Parent: EvidenceVariable
 Id: PR-EvidenceVariable
 Title: "PR-EvidenceVariable"
 Description: "A profile for the use of the EvidenceVariable resource for inclusion/exclusion criteria and research variables for cohort and datamart management."
+* ^experimental = true
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
