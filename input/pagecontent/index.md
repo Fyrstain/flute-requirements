@@ -53,7 +53,6 @@ In some cases, FLUTE relies on interim results of the HORIZON EUROPE TRUMPET pro
  This guide is divided into several pages: 
 
   - **[Home](index.html)**: The home page provides the introduction and context for this implementation guide.
-  - **[Home](index.html)**: The home page provides the introduction and context for this implementation guide.
 
   - **[Artifacts](artifacts.html)**: These pages provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
 
@@ -63,15 +62,6 @@ In some cases, FLUTE relies on interim results of the HORIZON EUROPE TRUMPET pro
     - **[User Requirements Specification for security and privacy](2.3UserRequirementsSpecification.html)**
     - **[Software Requirements Specification for security and privacy](2.4SoftwareRequirementsSpecification.html)**
     - **[PETs and security and privacy requirements](2.5PETsRequirements.html)**
-    - **[Threat model and attacks](2.2ThreatModelAndAttacks.html)**
-    - **[User Requirements Specification for security and privacy](2.3UserRequirementsSpecification.html)**
-    - **[Software Requirements Specification for security and privacy](2.4SoftwareRequirementsSpecification.html)**
-    - **[PETs and security and privacy requirements](2.5PETsRequirements.html)**
-  
-  - **Image processing and multi-modal synthetic data generation**:
-    - **[Methodology](3.1Methodology.html)**
-    - **[Main Categories](3.2MainCategories.html)**
-    - **[IMSD Requirements](3.3IMSDRequirements.html)**
   
   - **Human interface and user-facing features**:
     - **[Methodology](4.1Methodology.html)**
