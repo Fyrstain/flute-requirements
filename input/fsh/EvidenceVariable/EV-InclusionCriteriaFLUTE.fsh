@@ -3,6 +3,9 @@ InstanceOf: PR-EvidenceVariable
 Description: "Inclusion criteria for FLUTE study"
 Usage: #definition
 * url = Canonical(EV-InclusionCriteriaFLUTE)
+* identifier[+]
+  * system = "https://flute.com/EvidenceVariable"
+  * value = "FLUTEInclusionVariable"
 * name = "FLUTEInclusionVariable"
 * title = "Inclusion Variable for FLUTE Study"
 * status = #draft
@@ -10,7 +13,7 @@ Usage: #definition
 * actual = true
 * extension
   * url = "http://hl7.org/fhir/StructureDefinition/cqf-library"
-  * valueCanonical = "https://fluteproject.eu/Library/FLUTEPcaInclusionCriteria"
+  * valueCanonical = "https://flute.com/Library/InclusionCriteriaFLUTE"
 
 * characteristic
   * description = "Inclusion criteria for FLUTE study"
