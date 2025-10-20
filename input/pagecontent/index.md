@@ -53,16 +53,11 @@ In some cases, FLUTE relies on interim results of the HORIZON EUROPE TRUMPET pro
  This guide is divided into several pages: 
 
   - **[Home](index.html)**: The home page provides the introduction and context for this implementation guide.
-  - **[Home](index.html)**: The home page provides the introduction and context for this implementation guide.
 
   - **[Artifacts](artifacts.html)**: These pages provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
 
   - **Threat model and Privacy-Enabling Technologies**:
     - **[Methodology](2.1Methodology.html)**
-    - **[Threat model and attacks](2.2ThreatModelAndAttacks.html)**
-    - **[User Requirements Specification for security and privacy](2.3UserRequirementsSpecification.html)**
-    - **[Software Requirements Specification for security and privacy](2.4SoftwareRequirementsSpecification.html)**
-    - **[PETs and security and privacy requirements](2.5PETsRequirements.html)**
     - **[Threat model and attacks](2.2ThreatModelAndAttacks.html)**
     - **[User Requirements Specification for security and privacy](2.3UserRequirementsSpecification.html)**
     - **[Software Requirements Specification for security and privacy](2.4SoftwareRequirementsSpecification.html)**
@@ -79,6 +74,11 @@ In some cases, FLUTE relies on interim results of the HORIZON EUROPE TRUMPET pro
     - **[Main Categories](3.2MainCategories.html)**
     - **[IMSD Requirements](3.3IMSDRequirements.html)**
   
+  - **Image processing and multi-modal synthetic data generation**:
+    - **[Methodology](3.1Methodology.html)**
+    - **[Main Categories](3.2MainCategories.html)**
+    - **[IMSD Requirements](3.3IMSDRequirements.html)**
+  
   - **Cross-border prostate cancer pilot study**:
     - **[Rationale](5.1Rationale.html)**
     - **[Methodology and Study](5.2MethodologyAndStudy.html)**
@@ -88,6 +88,20 @@ In some cases, FLUTE relies on interim results of the HORIZON EUROPE TRUMPET pro
     - **[Convention and Standards](6.1ConventionAndStandards.html)**
     - **[Model And Privacy](6.2ModelAndPrivacy.html)**
     - **[STD Requirements](6.3STDRequirements.html)**
+
+  - **[Conclusions](7Conclusions.html)**
+
+## Dependencies
+
+{% include dependency-table.xhtml %}
+
+## Global Profiles
+
+{% include globals-table.xhtml %}
+
+## IP Statements
+
+{% include ip-statements.xhtml %}
 
   - **[Conclusions](7Conclusions.html)**
 
