@@ -53,11 +53,16 @@ In some cases, FLUTE relies on interim results of the HORIZON EUROPE TRUMPET pro
  This guide is divided into several pages: 
 
   - **[Home](index.html)**: The home page provides the introduction and context for this implementation guide.
+  - **[Home](index.html)**: The home page provides the introduction and context for this implementation guide.
 
   - **[Artifacts](artifacts.html)**: These pages provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
 
   - **Threat model and Privacy-Enabling Technologies**:
     - **[Methodology](2.1Methodology.html)**
+    - **[Threat model and attacks](2.2ThreatModelAndAttacks.html)**
+    - **[User Requirements Specification for security and privacy](2.3UserRequirementsSpecification.html)**
+    - **[Software Requirements Specification for security and privacy](2.4SoftwareRequirementsSpecification.html)**
+    - **[PETs and security and privacy requirements](2.5PETsRequirements.html)**
     - **[Threat model and attacks](2.2ThreatModelAndAttacks.html)**
     - **[User Requirements Specification for security and privacy](2.3UserRequirementsSpecification.html)**
     - **[Software Requirements Specification for security and privacy](2.4SoftwareRequirementsSpecification.html)**
