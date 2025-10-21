@@ -14,13 +14,18 @@ Best Practice Recommendation: In general, all observations should have a perform
 # Use fictitious URLs
 No definition could be found for URL value 'https://flute.com/EvidenceVariable'
 
-# Error on running CQL due to version of IG is R5 and CQL is only in R4
-Error Loading FLUTEPcaInclusionCriteria.cql: Cannot invoke "org.hl7.fhir.r5.model.Attachment.getData()" because "a" is null
-Error Loading FLUTEResearchVariables.cql: Cannot invoke "org.hl7.fhir.r5.model.Attachment.getData()" because "a" is null
-
 # This extension is not used in any profile but HL7 Publisher rises this error anyway
 The extension http://hl7.org/fhir/StructureDefinition/structuredefinition-implements could not be found so is not allowed here
 No definition could be found for URL value 'http://hl7.org/fhir/StructureDefinition/structuredefinition-implements'
 
 # Should have examples for all profiles
 The Implementation Guide contains no examples for this profile
+
+# Name conflict, the CQL code remains correct
+An operand identifier reference is hiding another identifier of the same name.
+
+# CQL expression - functionally correct in our implementation despite validator limitations
+Result type List of choice<FHIR.dateTime,FHIR.Period,FHIR.string,FHIR.Age,FHIR.Range> of definition ageAtBiopsy is not supported; implementations may not be able to use the result of this expression
+Result type List of choice<FHIR.Quantity,FHIR.CodeableConcept,FHIR.string,FHIR.boolean,FHIR.integer,FHIR.Range,FHIR.Ratio,FHIR.SampledData,FHIR.time,FHIR.dateTime,FHIR.Period> of definition psa is not supported; implementations may not be able to use the result of this expression
+Result type List of choice<FHIR.Quantity,FHIR.CodeableConcept,FHIR.string,FHIR.boolean,FHIR.integer,FHIR.Range,FHIR.Ratio,FHIR.SampledData,FHIR.time,FHIR.dateTime,FHIR.Period> of definition prostateVolume is not supported; implementations may not be able to use the result of this expression
+Result type List of choice<FHIR.Quantity,FHIR.CodeableConcept,FHIR.string,FHIR.boolean,FHIR.integer,FHIR.Range,FHIR.Ratio,FHIR.SampledData,FHIR.time,FHIR.dateTime,FHIR.Period> of definition pirads is not supported; implementations may not be able to use the result of this expression
