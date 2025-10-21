@@ -14,10 +14,6 @@ Best Practice Recommendation: In general, all observations should have a perform
 # Use fictitious URLs
 No definition could be found for URL value 'https://flute.com/EvidenceVariable'
 
-# Error on running CQL due to version of IG is R5 and CQL is only in R4
-Error Loading FLUTEPcaInclusionCriteria.cql: Cannot invoke "org.hl7.fhir.r5.model.Attachment.getData()" because "a" is null
-Error Loading FLUTEResearchVariables.cql: Cannot invoke "org.hl7.fhir.r5.model.Attachment.getData()" because "a" is null
-
 # This extension is not used in any profile but HL7 Publisher rises this error anyway
 The extension http://hl7.org/fhir/StructureDefinition/structuredefinition-implements could not be found so is not allowed here
 No definition could be found for URL value 'http://hl7.org/fhir/StructureDefinition/structuredefinition-implements'
