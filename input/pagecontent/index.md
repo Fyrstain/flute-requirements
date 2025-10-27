@@ -54,7 +54,7 @@ In some cases, FLUTE relies on interim results of the HORIZON EUROPE TRUMPET pro
 
   - **[Home](index.html)**: The home page provides the introduction and context for this implementation guide.
 
-  - **[FHIR Artifacts](artifacts.html)**: These pages provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
+  - **[Artifacts](artifacts.html)**: These pages provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
 
   - **Threat model and Privacy-Enabling Technologies**:
     - **[Methodology](2.1Methodology.html)**
@@ -63,16 +63,16 @@ In some cases, FLUTE relies on interim results of the HORIZON EUROPE TRUMPET pro
     - **[Software Requirements Specification for security and privacy](2.4SoftwareRequirementsSpecification.html)**
     - **[PETs and security and privacy requirements](2.5PETsRequirements.html)**
   
-  - **Image processing and multi-modal synthetic data generation**:
-    - **[Methodology](3.1Methodology.html)**
-    - **[Main Categories](3.2MainCategories.html)**
-    - **[IMSD Requirements](3.3IMSDRequirements.html)**
-  
   - **Human interface and user-facing features**:
     - **[Methodology](4.1Methodology.html)**
     - **[Requirements overview](4.2RequirementsOverview.html)**
     - **[Queries to be supported by the researcher/innovator interface](4.3QueriesToBeSupported.html)**
     - **[Implications on architecture](4.4ImplicationsOnArchitecture.html)**
+  
+  - **Image processing and multi-modal synthetic data generation**:
+    - **[Methodology](3.1Methodology.html)**
+    - **[Main Categories](3.2MainCategories.html)**
+    - **[IMSD Requirements](3.3IMSDRequirements.html)**
   
   - **Cross-border prostate cancer pilot study**:
     - **[Rationale](5.1Rationale.html)**
@@ -84,6 +84,8 @@ In some cases, FLUTE relies on interim results of the HORIZON EUROPE TRUMPET pro
     - **[Model And Privacy](6.2ModelAndPrivacy.html)**
     - **[STD Requirements](6.3STDRequirements.html)**
 
+  - **[Conclusions](7Conclusions.html)**
+
 ## Dependencies
 
 {% include dependency-table.xhtml %}
@@ -91,7 +93,7 @@ In some cases, FLUTE relies on interim results of the HORIZON EUROPE TRUMPET pro
 ## Global Profiles
 
 {% include globals-table.xhtml %}
-    
+
 ## IP Statements
 
 {% include ip-statements.xhtml %}

@@ -3,6 +3,7 @@ Parent: Procedure
 Id: PR-Biopsy
 Title: "Procedure: biopsy"
 Description: "This profile represents the biopsy procedure performed on a patient."
+* ^experimental = true
 * category 1..1 
 * category from VS_BiopsyType (required)
 * code = $sct#86273004 "Biopsy"

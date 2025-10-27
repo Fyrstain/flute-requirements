@@ -3,6 +3,7 @@ Parent: ResearchStudy
 Id: PR-ResearchStudy
 Title: "PR-ResearchStudy"
 Description: "A profile for the use of the ResearchStudy resource for managing research studies."
+* ^experimental = true
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open

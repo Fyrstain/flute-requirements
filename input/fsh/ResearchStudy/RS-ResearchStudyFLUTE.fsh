@@ -7,7 +7,7 @@ Usage: #definition
 * title = "FLUTE Research Study"
 * name = "FLUTEResearchStudy"
 * status = #active
-* phase = https://fluteproject.eu/CodeSystem/COS-ResearchStudyPhase#initial "Initial Phase"
+* phase = https://flute.com/CodeSystem/COS-ResearchStudyPhase#initial "Initial Phase"
 * description = "A study to evaluate the impact of family history on prostatic cancer follow-up criterias, such as level of prostatic-specific antigen and DRE."
 * period
   * start = "2025-01-01"
@@ -23,9 +23,15 @@ Usage: #definition
   * role = http://hl7.org/fhir/research-study-party-role#general-contact
 * recruitment
   * eligibility = Reference(EvidenceVariable/EV-InclusionCriteriaFLUTE)
+    * identifier[+]
+      * system = "https://flute.com/EvidenceVariable"
+      * value = "FLUTEInclusionVariable"
 
 * extension
   * url = "https://flute.com/StructureDefinition/EXT-Datamart"
   * extension[+]
     * url = "variable"
     * valueReference = Reference(EvidenceVariable/EV-EvidenceVariableFLUTEGroup)
+      * identifier[+]
+        * system = "https://flute.com/EvidenceVariable"
+        * value = "EvidenceVariableFLUTEGroup"

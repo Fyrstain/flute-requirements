@@ -4,6 +4,7 @@ Parent: Observation
 Id: PR-ProstateSpecificAntigen
 Title: "Observation: prostate specific antigen"
 Description: "Observation for the measurement of prostate specific antigen (PSA) levels in the blood."
+* ^experimental = true
 * code = $loinc#2857-1 "Prostate specific antigen, Blood"
 * subject 1.. 
 * subject only Reference(Patient)

@@ -78,6 +78,3 @@ define "prostateVolume":
 define "pirads":
     [Observation:"mri"] O where O.status = 'final'
     return O.value
-
-
-
