@@ -100,6 +100,8 @@ pages:
 parameters:
   path-binary: 
     - ./input/cql
+  special-url:
+    - https://www.isis.com/StructureDefinition/EXT-Datamart
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │

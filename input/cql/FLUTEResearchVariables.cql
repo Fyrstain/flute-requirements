@@ -53,7 +53,7 @@ context Patient
 
 define "ageAtBiopsy":
     [Procedure: "biopsy"] P where P.status = 'completed'
-    return P.performed
+    return AgeInYearsAt(FHIRHelpers.ToDateTime(P.performed as FHIR.dateTime))
 
 define "pcaFamilyHistory":
     if exists([FamilyMemberHistory] F where F.status = 'completed' and F.condition[0].code ~ "pca") then 1
