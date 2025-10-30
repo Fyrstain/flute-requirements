@@ -4,7 +4,7 @@ Title: "EXT-Datamart"
 Description: "Extension for research variables in a study."
 * ^context[+].type = http://hl7.org/fhir/extension-context-type#element
 * ^context[=].expression = "ResearchStudy"
-* url = "https://flute.com/StructureDefinition/EXT-Datamart" (exactly)
+* ^url = "https://www.isis.com/StructureDefinition/EXT-Datamart"
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #closed

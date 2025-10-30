@@ -28,7 +28,7 @@ Usage: #definition
       * value = "FLUTEInclusionVariable"
 
 * extension
-  * url = "https://flute.com/StructureDefinition/EXT-Datamart"
+  * url = "https://www.isis.com/StructureDefinition/EXT-Datamart"
   * extension[+]
     * url = "variable"
     * valueReference = Reference(EvidenceVariable/EV-EvidenceVariableFLUTEGroup)
